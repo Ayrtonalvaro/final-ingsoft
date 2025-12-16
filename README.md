@@ -26,7 +26,7 @@ El Dockerfile y los comandos de build/run los defini correctamente,pero no puedo
 ejecutar el contenedor en tiempo real por restricciones del entorno.
 
 El funcionamiento esperado del contenedor es:
-- Build de la imagen con `docker build`
+- Build de la imagen con `docker build -t final-ingsoft`
 - Ejecución con `docker run -p 8080:80`
 - Acceso vía navegador en `http://localhost:8080`
 

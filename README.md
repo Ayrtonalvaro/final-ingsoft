@@ -29,3 +29,11 @@ El funcionamiento esperado del contenedor es:
 - Build de la imagen con `docker build`
 - Ejecución con `docker run -p 8080:80`
 - Acceso vía navegador en `http://localhost:8080`
+
+## Evidencias
+
+### Error de Docker Desktop (virtualización deshabilitada)
+![Error Docker Desktop](screenshots/error-docker.png)
+
+### Aplicación HTML funcionando en local
+![HTML funcionando](screenshots/html.png)

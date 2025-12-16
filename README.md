@@ -20,8 +20,7 @@ docker build -t final-ingsoft .
 ## Nota sobre ejecución de Docker
 
 Durante el examen, tuve problemas con el docker desktop para iniciarlo debido a que la virtualización por hardware
-no se encuentra habilitada en el equipo utilizado para rendir (mensaje:
-"Virtualization support not detected").
+no se encuentra habilitada en el equipo utilizado para rendir (mensaje:"Virtualization support not detected").
 
 El Dockerfile y los comandos de build/run los defini correctamente,pero no puedo probarlo y
 ejecutar el contenedor en tiempo real por restricciones del entorno.
